@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <fieldset style="background-color: aqua;">
+        <legend>Registration Forms</legend>
+        <!-- Responsive HTML Form -->
+    <form action="">
+        <!-- first name -->
+        <label for="first-name">First Name*</label>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter Your First Name"
+          id="first-name"
+          required
+        />
+        <br />
+        <br />
+  
+        <!-- last name -->
+        <label for="">Last Name*</label>
+        <br />
+        <input type="text" placeholder="Enter Your Last Name" required />
+  
+        <br />
+        <br />
+        <!-- email -->
+        <label for="email">Email*</label>
+        <br />
+        <input type="email" placeholder="Enter Your Email" id="email" required />
+        <br />
+        <br />
+  
+        <!-- phone -->
+        <label for="">Phone Number*</label>
+        <br />
+        <input type="number" placeholder="+8801XXX-XXX" required />
+  
+        <br />
+        <br />
+        <!-- password -->
+        <label for="">Password*</label>
+        <br />
+        <input type="password" placeholder="******" required />
+  
+        <br />
+        <br />
+        <!-- select country -->
+        <label for="">Select Country*</label>
+        <select name="" id="" required>
+          <option value="select-country">--Select--</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="pakistan">Pakistan</option>
+          <option value="nepal">Nepal</option>
+          <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="iran">Iran</option>
+        </select>
+        <br />
+        <br />
+  
+        <!-- date of brith -->
+        <label for="date">Date Of Birth*</label>
+        <br />
+        <input type="date" id="date" required />
+        <br />
+        <br />
+  
+        <!-- upload document -->
+        <label for="file">Upload Document</label>
+        <br />
+        <input type="file" id="file" />
+        <br />
+        <br />
+  
+        <!-- gender -->
+        <label for="">Choose Gender</label>
+        <br />
+        <input type="radio" id="male" name="gender" />
+        <label for="male">male</label>
+  
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+  
+        <input type="radio" id="other" name="gender" />
+        <label for="other">Others</label>
+        <br />
+        <br />
+  
+        <!-- check box -->
+        <input type="checkbox" id="check-box" required/>
+        <label for="check-box" style="cursor: pointer;">Agree To <a href="https://github.com/mimoniruzzaman?page=2&tab=repositories" target="_blank">Term & Conditon</a></label>
+        <br />
+        <br />
+  
+        <!-- submit button -->
+        <button style="background-color: green; color: white; cursor: pointer;" type="submit">Contact Me</button>
+        <button style="background-color: red; color: white; cursor: pointer;" type="reste">Reset</button>
+    </fieldset>
+    </form>
+  </body>
+</html>
